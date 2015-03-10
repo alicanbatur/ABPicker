@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ABPicker/PickerTextFieldView.h>
 
 @interface ABViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet PickerTextFieldView *abPickerView;
 @end
