@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ABPicker', :exclusive => true do
+  pod "ABPicker", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "ABPicker", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
