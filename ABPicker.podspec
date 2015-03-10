@@ -10,19 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "ABPicker"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ABPicker."
+  s.summary          = "Picker with a custom, date and hour column."
   s.description      = <<-DESC
-                       An optional longer description of ABPicker
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       * Fill your custom column with what you need. Let me know min date and how many days you want in yoru date area. Let me know min, max hour value. Leave the rest.
+                       * There will be a button, textfield and a view which can be animate.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ABPicker"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/alicanbatur/ABPicker"
   s.license          = 'MIT'
   s.author           = { "alicanbatur" => "alicanbatur@hotmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ABPicker.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/alicanbatur/ABPicker.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/alicanbatur'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
