@@ -1,0 +1,20 @@
+PODS:
+  - ABPicker (0.1.0)
+  - Expecta (0.3.2)
+  - Specta (0.3.2)
+
+DEPENDENCIES:
+  - ABPicker (from `../`)
+  - Expecta
+  - Specta
+
+EXTERNAL SOURCES:
+  ABPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ABPicker: 1fd8cece01d0a9a7649b9f8984a75ab0feb2466a
+  Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
+  Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8
+
+COCOAPODS: 0.35.0
