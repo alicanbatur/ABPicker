@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/ABPicker.svg?style=flat)](http://cocoadocs.org/docsets/ABPicker)
 [![Platform](https://img.shields.io/cocoapods/p/ABPicker.svg?style=flat)](http://cocoadocs.org/docsets/ABPicker)
 
+## Demo
+![alt tag](https://s3-us-west-2.amazonaws.com/abgifs/abpicker.gif)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
